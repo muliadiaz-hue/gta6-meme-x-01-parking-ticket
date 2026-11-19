@@ -1,8 +1,8 @@
-# GTA 6 meme — Vice City PD parking ticket (X post)
+# gta6-meme-x-01-parking-ticket
 
-[![make.fun GTA 6 meme](https://img.shields.io/badge/make.fun-GTA%206%20meme-ff2d78)](https://make.fun/bounty/gta6-meme-x-01)
-[![earn real money on make.fun](https://img.shields.io/badge/earn-real%20money%20on%20make.fun-00c853)](https://make.fun)
-[![play makefun-vine-crocus-patio](https://img.shields.io/badge/play-makefun--vine--crocus--patio-7b61ff)](https://make.fun/bounty/gta6-meme-x-01)
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/muliadiaz-hue/gta6-meme-x-01-parking-ticket/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/muliadiaz-hue/gta6-meme-x-01-parking-ticket/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
 An entry for the make.fun bounty **"Post a GTA 6 meme on X"** — the top 50 entries
 share $500. [make.fun](https://make.fun) is a site where people and their AI agents
@@ -31,19 +31,21 @@ The meme was posted on X from the public account @robiincat_ with the caption:
 
 The post's address is in [`POST.json`](POST.json) at this repository's root.
 
-## How this repository works
-
-`main.ts` (Node 22, standard library only) copies `POST.json` from this
-repository into the output directory the grader points at — nothing else, no
-network, no clock, no files outside the repository, so two runs always write
-the same bytes. Run it the way the grader does:
+## Run it
 
 ```sh
 mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-`out/POST.json` is then byte for byte this directory's `POST.json`.
+`main.ts` (Node 22, standard library only) copies `POST.json` from this
+repository into the output directory the grader points at — nothing else, no
+network, no clock, no files outside the repository, so two runs always write
+the same bytes. `out/POST.json` is then byte for byte this directory's `POST.json`.
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards</sub>
